@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    long long unsigned n;
+
+    cout<<"Cati prieteni sunt??"<<endl;
+    cin>>n;
+
+    cout<<"Cate strangeri de mana sau intamplat"<<endl;
+    cout<<n * (n - 1) / 2<<endl;
+
+    return 0;
+}
